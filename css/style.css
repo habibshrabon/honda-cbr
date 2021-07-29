@@ -26,7 +26,7 @@ h2 {
   color: #e76f51;
 }
 .contact {
-  width: 600px;
+  max-width: 600px;
 }
 .contact-bg {
   background-color: #f1efef;
@@ -56,7 +56,7 @@ h2 {
 .social li a {
   width: 40px;
   height: 40px;
-  border-radius: 100%;
+  border-radius: 50%;
   background: #e7e7e8;
   display: flex;
   align-items: center;
