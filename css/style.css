@@ -27,5 +27,47 @@ h2 {
 }
 .contact {
   width: 600px;
-  background-color: gray;
+}
+.contact-bg {
+  background-color: #f1efef;
+}
+
+/* upcoming style */
+.opacity img {
+  opacity: 0.5;
+}
+.opacity img:hover {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
+}
+
+/* footer section style */
+
+.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.social li {
+  display: inline-block;
+}
+.social li a {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #e7e7e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  margin-bottom: 10px;
+  color: #969bab;
+}
+.social li a:hover {
+  background: #000;
+  color: #fff;
 }
